@@ -1,0 +1,163 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 250, 250);
+
+}
+
+.hackathon{
+    color: white !important;
+    background-color: black;
+   
+}
+.hackathon:hover{
+    background-color: slateblue;
+    border-radius: 50px;
+}
+
+
+
+.header {
+    position: fixed;
+    padding: 65px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15%;
+    background-color: white; 
+    color: rgb(14, 11, 11);
+
+  }
+
+.mainbody {
+    height: 75%; 
+    margin: 200px;
+}
+.page-content{
+    display: none;
+}
+
+.content-section {
+    display:none;}
+
+#about {
+    display: block;
+}
+
+.row{
+    display: inline-flex;
+}
+
+.row img{
+ 
+    width: 100%;
+    height: 60%;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.img1,
+.img2{
+    width: 50%;
+}
+
+#hacks img:hover{
+    border-color: 10px rgb(0, 0, 0);
+    border-radius: 150px 15px 15px 15px;
+    transition: 1s;
+
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+
+.row p{
+    padding-inline: 30px;
+}
+
+footer{
+    position: fixed;
+    height: 5%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.page1 img{
+
+    border-radius: 150px 15px 15px 15px;
+ 
+}
+
+.head{
+    display: flex;
+}
+.head div{
+    width: 50%;
+    height: 50%;
+    font-size: large;
+    margin: 10px;
+    margin-left: 20px;
+    padding-bottom: 50px;
+}
+
+.body div{
+    padding: 50px;
+    padding-top: 30px;
+    font-size: large;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+
+
+.page-content h1{
+    margin-left: 25px;
+}
+
+
+.dropdown {
+    position: relative;
+display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+   background-color: white;
+    padding: 2px;
+
+    font-size: small;
+    width: 5px;
+
+    padding: 0;
+    z-index: 1;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media (max-width:1450px) {
+    .header{
+        position: relative;
+        height: auto;
+    }
+    .mainbody{
+        margin: 100px;
+    }
+    .row{
+        display: block;
+    }
+
+    
+
+
+}
